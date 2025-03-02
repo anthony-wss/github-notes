@@ -1,0 +1,45 @@
+.pr-note-container {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.pr-note-display {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.pr-note-button {
+    background: #0366d6;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pr-note-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.pr-note-popup textarea {
+    width: 250px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.pr-note-popup button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
